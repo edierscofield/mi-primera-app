@@ -1,0 +1,45 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #f70e0e;
+  color: rgb(3, 82, 185);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.App-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+/* Estilos para el pie de página */
+.App-footer {
+  background-color: #0e0ef7; /* Color de fondo */
+  color: #e60c0c; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+}
